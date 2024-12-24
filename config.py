@@ -6,12 +6,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "24004330"))
-API_HASH = getenv("API_HASH", "914915b3b790d5a28aac3cbfb211f3d9")
+API_ID = int(getenv("API_ID", ""))
+API_HASH = getenv("API_HASH", ")
 BOT_PRIVACY = getenv("BOT_PRIVACY", "https://telegra.ph/Privacy-Policy-for-AnieXEricaMusic-10-06")
-BOT_TOKEN = getenv("BOT_TOKEN", "7055477749:AAGoM8Okq0nuW13C6jNJ9eyEb1Wr6gSnNsg")
+BOT_TOKEN = getenv("BOT_TOKEN", ":")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Sezar:alp@cluster0.gp7vh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongor0.gp7vh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
 
